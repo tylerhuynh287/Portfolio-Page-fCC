@@ -1,5 +1,5 @@
 # Portfolio Page  
-A responsive portfolio page showcasing projects and providing links to a personal profile. Built as part of a freeCodeCamp project, this page demonstrates a strong understanding of HTML, CSS, and responsive web design principles.
+A responsive portfolio page showcasing projects and providing links to a personal profile. Built as part of the freeCodeCamp Responsive Web Design Certification, Project 5. This page demonstrates a strong understanding of HTML, CSS, and responsive web design principles.
 
 ## Features
 - **Welcome Section**  
