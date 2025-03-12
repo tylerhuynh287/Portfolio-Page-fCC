@@ -27,6 +27,6 @@ A responsive portfolio page showcasing projects and providing links to a persona
 ## How to View
 1. Clone this repository:
    ```bash
-   git clone git@github.com:tylerhuynh287/Portfolio-Page-fCC.git
+   git clone https://github.com/tylerhuynh287/Portfolio-Page-fCC.git
 
 To be updated!
