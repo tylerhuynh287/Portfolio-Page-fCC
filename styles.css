@@ -1,82 +1,98 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
   
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
   
+#navbar {
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+  
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+  
+#navbar li {
+  margin: 10px;
+}
+  
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+  
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+  
+#projects {
+  padding: 50px;
+  background-color: #fff;
+}
+  
+.project-tile {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+  
+#profile-link {
+  display: block;
+  text-align: center;
+  margin: 50px auto;
+  font-size: 1.2em;
+  color: #333;
+  text-decoration: none;
+}
+  
+#profile-link:hover {
+  color: #007bff;
+}
+  
+@media (max-width: 768px) {
   #navbar {
-    background-color: #333;
-    color: white;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  
-  #navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-  }
-  
-  #navbar li {
-    margin: 10px;
-  }
-  
-  #navbar a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  #welcome-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-  }
-  
-  #projects {
-    padding: 50px;
-    background-color: #fff;
-  }
-  
+}  
   .project-tile {
-    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 15px;
+} 
+  #welcome-section {
+    height: auto;
     padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  #profile-link {
-    display: block;
-    text-align: center;
-    margin: 50px auto;
-    font-size: 1.2em;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  #profile-link:hover {
-    color: #007bff;
-  }
-  
-  @media (max-width: 768px) {
-    #navbar {
-      position: fixed;
     }
-  
-    .project-tile {
-      margin: 10px;
-      padding: 15px;
-    }
-  
-    #welcome-section {
-      height: auto;
-      padding: 20px;
-    }
-  }
+}
+
+.hero-tagline {
+  font-size: 1.2rem;
+  margin-top: 16px;
+  color: #555;
+  max-width: 600px;
+  text-align: center;
+}
+
+.project-thumb {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
